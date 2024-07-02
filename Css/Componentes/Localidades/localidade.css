@@ -1,0 +1,73 @@
+.conteudo__localidades {
+    background-color: var(--cor-06);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: solid 8px var(--cor-05);
+    border-bottom: solid 8px var(--cor-05);
+}
+
+.conteudo__localidades_titulo {
+    background-color: var(--cor-07);
+    padding: 0.6rem 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+}
+
+.conteudo__localidades_titulo_h1 {
+    color: var(--cor-04);
+    font-family: var(--fonte-localidade);
+    font-size: 2.2rem;
+}
+
+.conteudo__localidades_locais {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+
+.conteudo__locais_local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.conteudo__locais_local_img {
+    min-width: 55%;
+    height: 70vh;
+    border-radius: 2.6rem;
+}
+
+.conteudo__locais_local_descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conteudo__locais_descricao_local {
+    color: var(--cor-05);
+    font-family: var(--fonte-localidade);
+    font-size: 1.8rem;
+}
+
+.conteudo__locais_descricao_texto {
+    color: var(--cor-04);
+    font-family: var(--fonte-localidade);
+    font-size: 1.3rem;
+}
+
+.conteudo__locais_descricao_link {
+    color: var(--cor-04);
+    font-size: 1.8rem;
+    margin: 0 auto;
+    margin-right: 95%;
+    transition: all 0.7s;
+}
+
+.conteudo__locais_descricao_link:hover {
+    color: var(--cor-05);
+}

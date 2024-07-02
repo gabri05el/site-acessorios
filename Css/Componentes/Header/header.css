@@ -1,0 +1,20 @@
+@import url(./header-section/header_section.css);
+@import url(./header-nav/header_nav.css);
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    padding: 2rem 0;
+}
+
+.header__div:nth-child(2) {
+    background-color: var(--cor-01);
+}
