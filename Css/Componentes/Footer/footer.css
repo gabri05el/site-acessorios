@@ -75,18 +75,17 @@
     }
     .footer__caixa_email_texto {
         flex-direction: column;
-        
         gap: 0.2rem;
     }
     .footer__caixa_email_texto i {
         color: var(--cor-05);
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
     .footer__caixa_email_texto_div_h4 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .footer__caixa_email_texto_div_p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .footer__caixa_email_enviar {
         gap: 0.3rem;
