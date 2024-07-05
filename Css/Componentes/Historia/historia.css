@@ -104,6 +104,9 @@
 }
 
 @media(max-width: 600px) {
+    .conteudo__historia {
+        margin-top: 1rem;
+    }
     .conteudo__historia_titulo {
         border-radius: 1.4rem;
     }
