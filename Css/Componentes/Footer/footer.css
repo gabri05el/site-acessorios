@@ -71,6 +71,7 @@
     }
     .footer__caixa_email_texto {
         flex-direction: column;
+        justify-content: center;
         gap: 0.2rem;
     }
     .footer__caixa_email_texto i {
