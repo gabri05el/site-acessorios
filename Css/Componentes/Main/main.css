@@ -2,3 +2,55 @@
 @import url(./main-categorias/main_categorias.css);
 @import url(./main-novidades/main_novidades.css);
 @import url(./main-avaliacao/main_avaliacao.css);
+
+
+/* RESPONSIVIDADE MAIN-INFORMAÇÕES */
+
+@media(max-width: 1250px) {
+    .main__informacoes {
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem 1rem;
+    }
+}
+
+@media(max-width: 820px) {
+    .main__info_sobre {
+        font-size: 1.4rem;
+    }
+    .main__info_sobre i {
+        font-size: 1.8rem;
+    }
+    .main__info_descricao {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 660px) {
+    .main__informacoes {
+        gap: 0.6rem;
+        padding: 1rem 0.6rem;
+    }
+    .main__info {
+        gap: 0.6rem;
+    }
+    .main__info_sobre {
+        font-size: 1.25rem;
+    }
+    .main__info_sobre i {
+        font-size: 1.65rem;
+    }
+    .main__info_descricao {
+        font-size: 1rem;
+    }
+}
+
+
+/* RESPONSIVIDADE MAIN-CATEGORIA */
+
+
+/* RESPONSIVIDADE MAIN-NOVIDADES */
+
+
+/* RESPONSIVIDADE MAIN-AVALIAÇÕES */
+
