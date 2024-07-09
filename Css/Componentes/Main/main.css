@@ -45,11 +45,107 @@
     }
 }
 
-
 /* RESPONSIVIDADE MAIN-CATEGORIA */
 
+@media(max-width: 1140px) {
+    .main__categorias {
+        gap: 1.5rem;
+    }
+    .main__categorias_titulo {
+        margin: 1.5rem 0;
+    }
+    .main__categorias_titulo_h1 {
+        font-size: 1.9rem;
+    }
+    .main__catg {
+        height: 40vh;
+    }
+    .main__catg_escolha {
+        gap: 1rem;
+        padding: 0.4rem;
+        border-radius: 1.7rem;
+    }
+    .main__catg_escolha_btn {
+        font-size: 1.4rem;
+        padding: 0.1rem 0.3rem;
+        border-radius: 0.8rem;
+    }
+    .categoria__feminino_slide,
+    .categoria__masculino_slide {
+        gap: 1.8rem;
+    }
+    .catg_slide_off {
+        display: none;
+    }
+    .categoria__card {
+        gap: 0.5rem;
+    }
+    .categoria__card_img {
+        width: 120px;
+        height: 120px;
+    }
+    .categoria__card_descricao {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 920px) {
+    .main__catg {
+        height: 70vh;
+    }
+    .main__catg_slides {
+        top: 20%;
+    }
+    .categoria__feminino_slide,
+    .categoria__masculino_slide {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.6rem;
+    }
+    .catg_slide_off {
+        display: none;
+    }
+}
+
+@media(max-width: 520px) {
+    .main__categorias {
+        gap: 1rem;
+    }
+    .main__categorias_titulo {
+        margin: 1.2rem 0;
+    }
+    .main__categorias_titulo_h1 {
+        font-size: 1.6rem;
+    }
+    .main__catg {
+        height: 50vh;
+    }
+    .main__catg_escolha {
+        gap: 0.4rem;
+        padding: 0.3rem;
+        border-radius: 1.4rem;
+    }
+    .main__catg_escolha_btn {
+        font-size: 1.2rem;
+    }
+    .categoria__feminino_slide,
+    .categoria__masculino_slide {
+        gap: 1rem;
+    }
+    .categoria__card {
+        gap: 0.3rem;
+    }
+    .categoria__card_img {
+        width: 95px;
+        height: 95px;
+    }
+    .categoria__card_descricao {
+        font-size: 1rem;
+    }
+}
 
 /* RESPONSIVIDADE MAIN-NOVIDADES */
+
 
 
 /* RESPONSIVIDADE MAIN-AVALIAÇÕES */
