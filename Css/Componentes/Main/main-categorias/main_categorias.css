@@ -58,7 +58,8 @@
 .categoria__feminino_slide,
 .categoria__masculino_slide {
     display: flex;
-    gap: 2.23rem;
+    flex-direction: row;
+    gap: 2.2rem;
 }
 
 .catg_slide_off {
