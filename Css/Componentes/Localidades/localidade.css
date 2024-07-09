@@ -192,8 +192,6 @@
         margin-bottom: 1.3rem;
     }
     .conteudo__locais_local_img {
-        min-width: 90%;
-        height: 45vh;
-        border-radius: 0.8rem;
+        display: none;
     }
 }
