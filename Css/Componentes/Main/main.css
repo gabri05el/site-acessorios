@@ -263,13 +263,14 @@
 
 @media(max-width: 550px) {
     .main__novidade_slide {
+        justify-content: center;
         height: 90vh;
     }
     .novidade__slide {
         height: 90vh;
     }
     .novidade__slides {
-        gap: 0.2rem;
+        gap: 1rem;
         padding: 0.8rem;
     }
     .novidade__slides_relogio {
