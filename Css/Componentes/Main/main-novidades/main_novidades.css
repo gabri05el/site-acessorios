@@ -17,6 +17,7 @@
 }
 
 .main__novidade_slide {
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -41,6 +42,7 @@
 }
 
 .novidade__slide {
+    background-color: blue;
     position: relative;
     display: flex;
     align-items: center;
