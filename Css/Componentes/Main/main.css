@@ -274,6 +274,8 @@
         padding: 0.8rem;
     }
     .novidade__slides_relogio {
+        justify-content: center;
+        gap: 0.1rem;
         padding: 0.2rem;
     }
     .novidade__slides_relogio_img {
