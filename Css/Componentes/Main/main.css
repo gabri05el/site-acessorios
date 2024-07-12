@@ -261,7 +261,7 @@
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 460px) {
     .main__novidade_slide {
         justify-content: center;
         height: 80vh;
@@ -271,7 +271,7 @@
     }
     .novidade__slides {
         gap: 1rem;
-        padding: 0.8rem;
+        padding: 0.4rem;
     }
     .novidade__slides_relogio {
         justify-content: center;
