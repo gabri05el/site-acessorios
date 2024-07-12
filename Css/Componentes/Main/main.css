@@ -261,13 +261,13 @@
     }
 }
 
-@media(max-width: 550px) {
+@media(max-width: 500px) {
     .main__novidade_slide {
         justify-content: center;
-        height: 90vh;
+        height: 80vh;
     }
     .novidade__slide {
-        height: 90vh;
+        height: 80vh;
     }
     .novidade__slides {
         gap: 1rem;
