@@ -185,7 +185,6 @@
         padding: 0.4rem;
     }
 }
-
 @media(max-width: 840px) {
     .main__novidade_titulo_h1 {
         font-size: 1.8rem;
@@ -219,7 +218,6 @@
         padding: 0.3rem;
     }
 }
-
 @media(max-width: 770px) {
     .main__novidade_titulo_h1 {
         font-size: 1.5rem;
@@ -260,7 +258,6 @@
         padding: 0.4rem;
     }
 }
-
 @media(max-width: 460px) {
     .main__novidade_slide {
         justify-content: center;
@@ -305,3 +302,8 @@
 
 /* RESPONSIVIDADE MAIN-AVALIAÇÕES */
 
+@media(max-width: 1220px) {
+    .main__avaliacao {
+        display: none;
+    }
+}
